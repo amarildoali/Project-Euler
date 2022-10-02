@@ -1,8 +1,7 @@
 def g(n):
     if (n % 4) == 1:
         return g((n - 1) / 4)
-    else:
-        return n
+    return n
 
 
 def prossimo(n):

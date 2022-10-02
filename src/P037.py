@@ -17,7 +17,7 @@ def right(x, primi):
     return True
 
 
-primi = Algorithms.primes2(800000)
+primi = Algorithms.primes(800000)
 valori = []
 for i in primi:
     if left(i, primi) and right(i, primi):

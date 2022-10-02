@@ -23,7 +23,6 @@ def check_hex(n):
 
 for i in range(286, 100000):
     t = triangolare(i)
-    if check_pent(t):
-        if check_hex(t):
-            print(t.__int__())
-            break
+    if check_pent(t) and check_hex(t):
+        print(int(t))
+        break

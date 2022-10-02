@@ -1,4 +1,4 @@
-import Algorithms
+from src import Algorithms
 
 x = []
 for i in range(34):  # F_34 exceeds 4 million

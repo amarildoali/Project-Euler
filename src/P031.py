@@ -1,14 +1,14 @@
 A = 0
 
 
-def calcola(a):
+def calculate(a):
     return (
-        a[0] * 1 + a[1] * 2 + a[2] * 5 + a[3] * 10 + a[4] * 20 + a[5] * 50 + a[6] * 100
+            a[0] * 1 + a[1] * 2 + a[2] * 5 + a[3] * 10 + a[4] * 20 + a[5] * 50 + a[6] * 100
     )
 
 
 def back(a, s, n):
-    c = calcola(a)
+    c = calculate(a)
     if c > 200:
         return
     if s == n:
