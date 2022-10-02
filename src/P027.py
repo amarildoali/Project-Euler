@@ -4,7 +4,7 @@ import Algorithms
 def numero_di_primi(s):
     x = 0
     for i in s:
-        if Algorithms.IsPrime(i):
+        if Algorithms.is_prime(i):
             x += 1
         else:
             return x
