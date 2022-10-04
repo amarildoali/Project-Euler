@@ -1,5 +1,8 @@
 def fibo(n):
-    '''calculate the n-th fibonacci number'''
+    """Calculate the n-th fibonacci number
+
+    Complexity = O(n)
+    """
     a = 0
     b = 1
     if n < 0:
