@@ -4,9 +4,10 @@ def is_palindrome(n):
     return bool(a == b)
 
 
-massimo = 0
-for i in range(1000):
-    for j in range(1000):
-        if (i * j) > massimo and is_palindrome(i * j):
-            massimo = i * j
-print(massimo)
+result = 0
+for i in range(100, 1000):
+    for j in range(100, 1000):
+        if (i * j) > result and is_palindrome(i * j):
+            result = i * j
+print(f"Solution = {result}")
+print("Complexity = O(Calculate)")

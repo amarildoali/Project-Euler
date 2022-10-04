@@ -7,4 +7,5 @@ def b():
     return sum([x * x for x in range(101)])
 
 
-print(a() - b())
+print(f"Solution = {a() - b()}")
+print("Complexity = O(Calculate)")

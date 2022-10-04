@@ -1,11 +1,11 @@
 def divisible(n):
-    for i in range(11, 21):
-        if n % i != 0:
+    for divisor in range(11, 21):
+        if n % divisor != 0:
             return False
     return True
 
 
-i = 0
+i = 1
 while True:
     if divisible(i):
         print(i)

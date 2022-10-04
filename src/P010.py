@@ -1,3 +1,4 @@
 import Algorithms
 
-print(sum(Algorithms.primes(2_000_000)))
+print(f"Solution = {sum(Algorithms.primes(2_000_000))}")
+print("Complexity = O(Calculate)")

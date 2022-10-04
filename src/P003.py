@@ -1,8 +1,9 @@
 import Algorithms
 
-a = Algorithms.divisors(600851475143)
-b = []
-for i in a:
+divisors = Algorithms.divisors(600851475143)
+result = []
+for i in divisors:
     if Algorithms.is_prime(i):
-        b.append(i)
-print(max(b))
+        result.append(i)
+print(f"Solution = {max(result)}")
+print("Complexity = O(Calculate)")

@@ -1,7 +1,11 @@
 def fibo(n):
-    """Calculate the n-th fibonacci number
+    """
+    Calculate the n-th fibonacci number
 
     Complexity = O(n)
+
+    :param n: n-th fibonucci number to find
+    :return: n-th fibonucci number
     """
     a = 0
     b = 1
@@ -20,6 +24,12 @@ def fibo(n):
 
 
 def is_prime(n):
+    """
+    Check if a number is a prime number
+
+    :param n: Number that needs to be checked
+    :return: True if n in a prime number
+    """
     if n in (2, 3):
         return True
     if n < 2 or n % 2 == 0:
@@ -53,7 +63,12 @@ def primes(n):
 
 
 def divisors(n):
-    '''Proper Divisors (numbers less than n which divide evenly into n)'''
+    """
+    Find all divisors of the number n
+
+    :param n: number to find the divisors of
+    :return: list of divisors of n
+    """
     p = list(x for tup in ([i, n // i] for i in range(1,
                                                       int(n ** 0.5) + 1) if n % i == 0) for x in tup)
     # p.remove(n)
