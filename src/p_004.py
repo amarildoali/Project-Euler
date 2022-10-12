@@ -1,7 +1,12 @@
-def is_palindrome(n):
-    a = str(n)
-    b = a[len(a):: -1]
-    return bool(a == b)
+"""
+Problem 4
+"""
+
+
+def is_palindrome(number):
+    normal = str(number)
+    normal_reversed = normal[len(normal):: -1]
+    return bool(normal == normal_reversed)
 
 
 result = 0
