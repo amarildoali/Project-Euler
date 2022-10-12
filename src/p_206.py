@@ -1,23 +1,17 @@
-def check(n):
-    if n.__str__()[0] == '1':
-        if n.__str__()[2] == '2':
-            if n.__str__()[4] == '3':
-                if n.__str__()[6] == '4':
-                    if n.__str__()[8] == '5':
-                        if n.__str__()[10] == '6':
-                            if n.__str__()[12] == '7':
-                                if n.__str__()[14] == '8':
-                                    if n.__str__()[16] == '9':
-                                        if n.__str__()[18] == '0':
-                                            return True
+"""
+Problem 206
+"""
+
+
+def check(number: str) -> bool:
+    if number == '1234567890':
+        return True
     return False
 
 
-a = (10 ** 9).__int__()
-b = (1.4 * 10 ** 9).__int__()
+a = int(10 ** 9)
+b = int(1.4 * 10 ** 9)
 for i in range(b, a, -10):
-    if check(i * i):
-        print(i)
+    if check(str(i * i)[::2]):
+        print(f"Solution = {i}")
         break
-
-# SERVE REFACTORING
