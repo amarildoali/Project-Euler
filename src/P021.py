@@ -13,3 +13,5 @@ for a in range(1, 10000):
     if check_amicable(a):
         somma += a
 print(somma)
+
+### SERVE REFACTORING

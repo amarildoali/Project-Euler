@@ -5,3 +5,5 @@ for i in range(1, 10 * 1000):
     if s.__len__() == 1000:
         print(i)
         break
+
+### SERVE REFACTORING

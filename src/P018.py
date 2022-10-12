@@ -16,3 +16,5 @@ for i in range(15):
         matrice[j][i] = int(matrice[j][i])
 
 print(golden_pyramid_d(matrice))
+
+### SERVE REFACTORING

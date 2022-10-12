@@ -16,3 +16,5 @@ for i in range(3, 1000000):
         somma += i
         print(i)
 print(somma)
+
+### SERVE REFACTORING

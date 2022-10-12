@@ -13,3 +13,5 @@ for i in range(2, 1000000):
     if check(i):
         tot += i
 print(tot)
+
+### SERVE REFACTORING

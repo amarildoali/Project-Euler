@@ -1,17 +1,17 @@
 def triangolare(n):
-    return n*(n+1)/2
+    return n * (n + 1) / 2
 
 
 def calcola(parola):
     s = 0
     for i in range(len(parola)):
-        s += (ord(parola[i])-64)
+        s += (ord(parola[i]) - 64)
     return s
 
 
 if __name__ == "__main__":
     tri = []
-    for i in range(10**4):
+    for i in range(10 ** 4):
         tri.append(triangolare(i))
 
     parole = []
@@ -25,3 +25,5 @@ if __name__ == "__main__":
         if valore in tri:
             tot += 1
     print(tot)
+
+### SERVE REFACTORING

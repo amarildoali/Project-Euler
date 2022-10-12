@@ -14,8 +14,10 @@ def circolare(n, primi):
 
 
 if __name__ == "__main__":
-    primi = Algorithms.primes(10**6)
+    primi = Algorithms.primes(10 ** 6)
     s = 0
     for i in primi:
         s += circolare(str(i), primi)
     print(s)
+
+### SERVE REFACTORING

@@ -19,3 +19,5 @@ for i in range(b, a, -10):
     if check(i * i):
         print(i)
         break
+
+### SERVE REFACTORING

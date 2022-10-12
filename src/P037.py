@@ -23,3 +23,5 @@ for i in primi:
     if left(i, primi) and right(i, primi):
         valori.append(i)
 print(sum(valori[4:]))
+
+### SERVE REFACTORING

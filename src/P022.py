@@ -19,3 +19,5 @@ for i in s:
     tot += somma * indice
     indice += 1
 print(tot)
+
+### SERVE REFACTORING

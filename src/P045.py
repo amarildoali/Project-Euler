@@ -26,3 +26,5 @@ for i in range(286, 100000):
     if check_pent(t) and check_hex(t):
         print(int(t))
         break
+
+### SERVE REFACTORING

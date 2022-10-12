@@ -14,3 +14,5 @@ for i in range(1000):
     calcolati.append(esponente * log10(base))
 indice = calcolati.index(max(calcolati)) + 1
 print(indice)
+
+### SERVE REFACTORING
