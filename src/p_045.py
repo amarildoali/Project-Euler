@@ -27,4 +27,4 @@ for i in range(286, 100000):
         print(int(t))
         break
 
-### SERVE REFACTORING
+# SERVE REFACTORING

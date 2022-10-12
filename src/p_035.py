@@ -1,3 +1,6 @@
+from algorithms import primes
+
+
 def slitta(numero):
     return numero[1:] + numero[0]
 
@@ -11,10 +14,10 @@ def circolare(n, primi):
 
 
 if __name__ == "__main__":
-    primi = Algorithms.primes(10 ** 6)
+    primi = primes(10 ** 6)
     s = 0
     for i in primi:
         s += circolare(str(i), primi)
     print(s)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

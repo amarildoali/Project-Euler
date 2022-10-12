@@ -14,4 +14,4 @@ for i in range(2, 1000000):
         tot += i
 print(tot)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

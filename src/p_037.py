@@ -1,3 +1,6 @@
+from algorithms import primes
+
+
 def left(x, primi):
     while len(str(x)) > 1:
         x = int(str(x)[1:])
@@ -14,11 +17,11 @@ def right(x, primi):
     return True
 
 
-primi = Algorithms.primes(800000)
+primi = primes(800000)
 valori = []
 for i in primi:
     if left(i, primi) and right(i, primi):
         valori.append(i)
 print(sum(valori[4:]))
 
-### SERVE REFACTORING
+# SERVE REFACTORING

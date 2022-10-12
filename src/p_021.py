@@ -1,6 +1,9 @@
+from algorithms import divisors
+
+
 def check_amicable(a):
-    b = sum(Algorithms.divisors(a))
-    if sum(Algorithms.divisors(b)) == a and a != b:
+    b = sum(divisors(a))
+    if sum(divisors(b)) == a and a != b:
         return True
     return False
 
@@ -11,4 +14,4 @@ for a in range(1, 10000):
         somma += a
 print(somma)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

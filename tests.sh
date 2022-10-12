@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $1 -eq 0 ]
+if [ "$#" -eq 0 ]
   then
     echo "First argument that should be a .py file or directory"
   else
@@ -9,13 +9,8 @@ if [ $1 -eq 0 ]
     flake8 "$1"
     mypy "$1"
     pyflakes "$1"
-    coverage run "$1"
-    coverage report -m
+    coverage run --branch "$1"
+    coverage html
 fi
-
-# Print solved in README.md
-README="README.md"
-echo '# Solved' > $README
-grep -Ril 'src/' -e 'Solution' | sort | tee -a $README > /dev/null
 
 printf '\nFinished.\n'

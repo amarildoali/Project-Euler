@@ -1,7 +1,10 @@
+from algorithms import is_prime
+
+
 def numero_di_primi(s):
     x = 0
     for i in s:
-        if Algorithms.is_prime(i):
+        if is_prime(i):
             x += 1
         else:
             return x
@@ -26,4 +29,4 @@ for a in range(-999, 1000):
             B = b
 print(A * B)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

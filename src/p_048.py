@@ -3,4 +3,4 @@ for i in range(1, 1001):
     x += (i ** i)
 print(str(x)[-10:])
 
-### SERVE REFACTORING
+# SERVE REFACTORING

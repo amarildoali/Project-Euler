@@ -20,4 +20,4 @@ for i in s:
     indice += 1
 print(tot)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

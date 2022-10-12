@@ -17,4 +17,4 @@ for i in range(100):
 
 print(golden_pyramid_d(matrice))
 
-### SERVE REFACTORING
+# SERVE REFACTORING

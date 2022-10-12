@@ -12,4 +12,4 @@ for i in range(10 ** 6):
         somma += i
 print(somma)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

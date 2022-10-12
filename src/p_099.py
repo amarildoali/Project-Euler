@@ -15,4 +15,4 @@ for i in range(1000):
 indice = calcolati.index(max(calcolati)) + 1
 print(indice)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

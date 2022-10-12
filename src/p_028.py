@@ -22,4 +22,4 @@ for i in range(1, 501):
     somma += basso_sinistra(i)
 print(somma)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

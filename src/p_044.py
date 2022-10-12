@@ -9,4 +9,4 @@ for p1 in pentagonals:
             if p1 - p2 in pentagonals:
                 print(p1 - p2)'''
 
-### SERVE REFACTORING
+# SERVE REFACTORING

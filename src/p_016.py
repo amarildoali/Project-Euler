@@ -5,4 +5,4 @@ for i in range(len(b)):
     x += int(b[i])
 print(x)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

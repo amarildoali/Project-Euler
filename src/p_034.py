@@ -17,4 +17,4 @@ for i in range(3, 1000000):
         print(i)
 print(somma)
 
-### SERVE REFACTORING
+# SERVE REFACTORING

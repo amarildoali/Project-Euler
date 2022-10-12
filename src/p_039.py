@@ -29,4 +29,4 @@ for p in range(1000, 1, -1):
 print(sorted(dizionaio.items(), key=lambda x: x[1], reverse=True))
 # Vengono stmpati in ordine decrescente, quindi la risposta e la prima
 
-### SERVE REFACTORING
+# SERVE REFACTORING

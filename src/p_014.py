@@ -28,4 +28,4 @@ for n in range(1, 1_000_000):
         partenza = p
 print(partenza)
 
-### SERVE REFACTORING
+# SERVE REFACTORING
