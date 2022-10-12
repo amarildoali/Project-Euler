@@ -1,6 +1,3 @@
-import Algorithms
-
-
 def left(x, primi):
     while len(str(x)) > 1:
         x = int(str(x)[1:])

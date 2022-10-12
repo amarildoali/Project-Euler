@@ -1,6 +1,3 @@
-import Algorithms
-
-
 def slitta(numero):
     return numero[1:] + numero[0]
 

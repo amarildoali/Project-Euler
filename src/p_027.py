@@ -1,6 +1,3 @@
-import Algorithms
-
-
 def numero_di_primi(s):
     x = 0
     for i in s:

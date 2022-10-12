@@ -1,5 +1,3 @@
-import Algorithms
-
 divisors = Algorithms.divisors(600851475143)
 result = []
 for i in divisors:

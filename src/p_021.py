@@ -1,6 +1,3 @@
-import Algorithms
-
-
 def check_amicable(a):
     b = sum(Algorithms.divisors(a))
     if sum(Algorithms.divisors(b)) == a and a != b:
