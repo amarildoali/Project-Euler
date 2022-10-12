@@ -12,7 +12,6 @@ def find_triangle():
             for c in range(b, 1000):
                 if (a + b + c) == 1000 and is_pitagora(a, b, c):
                     print(f"Solution = {a * b * c}")
-                    print("Complexity = O(Calculate)")
                     return
 
 

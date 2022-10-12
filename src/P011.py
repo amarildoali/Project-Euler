@@ -1,34 +1,27 @@
-import numpy
+import numpy as np
 
 
-def horizontal(matrix):
-    massimo = 0
+def horizontal(mat):
+    maximum = 0
     for i in range(20):
         for j in range(17):
-            actual = (
-                    matrix[i][j] * matrix[i][j + 1] * matrix[i][j + 2] * matrix[i][j + 3]
-            )
-            if actual > massimo:
-                massimo = actual
-    return massimo
+            actual = mat[i][j] * mat[i][j + 1] * mat[i][j + 2] * mat[i][j + 3]
+            if actual > maximum:
+                maximum = actual
+    return maximum
 
 
-def diagonal(matrix):
-    massimo = 0
+def diagonal(mat):
+    maximum = 0
     for i in range(17):
         for j in range(17):
-            attuale = (
-                    matrix[i][j]
-                    * matrix[i + 1][j + 1]
-                    * matrix[i + 2][j + 2]
-                    * matrix[i + 3][j + 3]
-            )
-            if attuale > massimo:
-                massimo = attuale
-    return massimo
+            actual = mat[i][j] * mat[i + 1][j + 1] * mat[i + 2][j + 2] * mat[i + 3][j + 3]
+            if actual > maximum:
+                maximum = actual
+    return maximum
 
 
-matrix = numpy.array(
+matrix = np.array(
     [
         [8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 8],
         [49, 49, 99, 40, 17, 81, 18, 57, 60, 87, 17, 40, 98, 43, 69, 48, 4, 56, 62, 00],
@@ -52,11 +45,12 @@ matrix = numpy.array(
         [1, 70, 54, 71, 83, 51, 54, 69, 16, 92, 33, 48, 61, 43, 52, 1, 89, 19, 67, 48],
     ]
 )
-results = []
-results.append(horizontal(matrix))
-results.append(horizontal(matrix.transpose()))
-results.append(diagonal(matrix))
-results.append(diagonal(numpy.rot90(matrix, 1)))
-results.append(diagonal(numpy.rot90(matrix, 2)))
-results.append(diagonal(numpy.rot90(matrix, 3)))
-print(max(results))
+results = [
+    horizontal(matrix),
+    horizontal(matrix.transpose()),
+    diagonal(matrix),
+    diagonal(np.rot90(matrix, 1)),
+    diagonal(np.rot90(matrix, 2)),
+    diagonal(np.rot90(matrix, 3))
+]
+print(f"Solution = {max(results)}")

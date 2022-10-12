@@ -8,4 +8,3 @@ def b():
 
 
 print(f"Solution = {a() - b()}")
-print("Complexity = O(Calculate)")

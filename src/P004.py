@@ -10,4 +10,3 @@ for i in range(100, 1000):
         if (i * j) > result and is_palindrome(i * j):
             result = i * j
 print(f"Solution = {result}")
-print("Complexity = O(Calculate)")

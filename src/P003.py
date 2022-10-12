@@ -6,4 +6,3 @@ for i in divisors:
     if Algorithms.is_prime(i):
         result.append(i)
 print(f"Solution = {max(result)}")
-print("Complexity = O(Calculate)")

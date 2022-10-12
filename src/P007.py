@@ -1,6 +1,5 @@
 import Algorithms
 
-primi = Algorithms.primes(120_000)
+primes = Algorithms.primes(120_000)
 
-print(f"Solution = {primi[10000]}")
-print("Complexity = O(Calculate)")
+print(f"Solution = {primes[10000]}")
