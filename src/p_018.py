@@ -7,7 +7,7 @@ def golden_pyramid_d(triangle):
 
 
 matrice = []
-with open("file.txt", "r") as f:
+with open("file.txt", "r", encoding='utf-8') as f:
     for i in range(15):
         matrice.append(f.readline().rstrip().split(" "))
 
