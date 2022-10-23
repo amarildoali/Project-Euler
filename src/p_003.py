@@ -1,7 +1,3 @@
-"""
-Problem 3
-"""
-
 from algorithms import divisors, is_prime
 
 divisors = divisors(600851475143)

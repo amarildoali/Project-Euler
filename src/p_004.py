@@ -1,8 +1,3 @@
-"""
-Problem 4
-"""
-
-
 def is_palindrome(number):
     normal = str(number)
     normal_reversed = normal[len(normal):: -1]

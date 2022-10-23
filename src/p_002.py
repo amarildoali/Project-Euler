@@ -1,9 +1,3 @@
-"""
-Problem 2
-Solution = 4613732
-Complexity = O(n)
-"""
-
 from algorithms import fibo
 
 result = []

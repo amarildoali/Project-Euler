@@ -1,4 +1,4 @@
 # Project Euler
 
-- Problem 1 = $O(1)$
-- Problem 2 = $O(n)$
+My solutions to [Project Euler](https://projecteuler.net/) problems. If you haven't solved these problems yet you
+probably shouldn't look here.
