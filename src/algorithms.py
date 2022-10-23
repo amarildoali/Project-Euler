@@ -4,8 +4,8 @@ def fibo(n):
 
     Complexity = O(n)
 
-    :param n: n-th fibonucci number to find
-    :return: n-th fibonucci number
+    :param n: n-th fibonacci number to find
+    :return: n-th fibonacci number
     """
     a = 0
     b = 1
