@@ -1,5 +1,7 @@
 """
 Problem 1
+Solution = 233168
+Complexity = O(1)
 """
 
 result = 0
